@@ -33,10 +33,13 @@ test.describe('Check dzen.ru', async () => {
         const mainPage = new MainPage(page);
         const videoPage = new VideoPage(page);
         await allure.step(`Check jump to video page`, async () => {
+            await mainPage.notActiveVideoIcon.waitFor({state: 'visible'});
+            await mainPage.activeVideoIcon.waitFor({state: 'hidden'});
             await mainPage.videoMenuButton.click();
             await videoPage.searchField.waitFor({state: 'visible'})
             await expect(videoPage.activeMenuButton).toHaveText(data.texts.menuVideo);
-            //check logo
+            await mainPage.notActiveVideoIcon.waitFor({state: 'hidden'});
+            await mainPage.activeVideoIcon.waitFor({state: 'visible'});
         });
 
         await allure.step(`Check search video`, async () => {
