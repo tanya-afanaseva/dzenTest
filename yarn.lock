@@ -3,83 +3,101 @@
 
 
 "@playwright/test@^1.44.1":
-  "integrity" "sha512-1hZ4TNvD5z9VuhNJ/walIjvMVvYkZKf71axoF/uiAqpntQJXpG64dlXhoDXE3OczPuTuvjf/M5KWFg5VAVUS3Q=="
-  "resolved" "https://registry.npmjs.org/@playwright/test/-/test-1.44.1.tgz"
-  "version" "1.44.1"
+  version "1.44.1"
+  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.44.1.tgz"
+  integrity sha512-1hZ4TNvD5z9VuhNJ/walIjvMVvYkZKf71axoF/uiAqpntQJXpG64dlXhoDXE3OczPuTuvjf/M5KWFg5VAVUS3Q==
   dependencies:
-    "playwright" "1.44.1"
+    playwright "1.44.1"
 
 "@types/node@^20.14.5":
-  "integrity" "sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-20.14.5.tgz"
-  "version" "20.14.5"
+  version "20.14.5"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.14.5.tgz"
+  integrity sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==
   dependencies:
-    "undici-types" "~5.26.4"
+    undici-types "~5.26.4"
 
-"allure-commandline@^2.29.0":
-  "integrity" "sha512-he/oWJflViIdEmuQ4er5k+xRd//PaVVElHHTx01h6W71KM9qKiLeF5MloV93UBYoJRzjD9fgbZedSMKemCEGkQ=="
-  "resolved" "https://registry.npmjs.org/allure-commandline/-/allure-commandline-2.29.0.tgz"
-  "version" "2.29.0"
+allure-commandline@^2.29.0:
+  version "2.29.0"
+  resolved "https://registry.npmjs.org/allure-commandline/-/allure-commandline-2.29.0.tgz"
+  integrity sha512-he/oWJflViIdEmuQ4er5k+xRd//PaVVElHHTx01h6W71KM9qKiLeF5MloV93UBYoJRzjD9fgbZedSMKemCEGkQ==
 
-"allure-js-commons@3.0.0-beta.3":
-  "integrity" "sha512-akVMlszV8yw7WciiizHjiW646mRAbz5ClI9Dqa6l3pzAL46IH09/XN5QCQf19csVUZWA7T7sffRiQVc+9tIfRg=="
-  "resolved" "https://registry.npmjs.org/allure-js-commons/-/allure-js-commons-3.0.0-beta.3.tgz"
-  "version" "3.0.0-beta.3"
+allure-js-commons@2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/allure-js-commons/-/allure-js-commons-2.15.1.tgz#570285472c80759017de699035218821fd12a7d3"
+  integrity sha512-5V/VINplbu0APnfSZOkYpKOzucO36Q2EtTD1kqjWjl7n6tj7Hh+IHCZsH3Vpk/LXRDfj9RuXugBBvwYKV5YMJw==
   dependencies:
-    "md5" "^2.3.0"
-    "properties" "^1.2.1"
+    md5 "^2.3.0"
+    properties "^1.2.1"
+    strip-ansi "^5.2.0"
 
-"allure-playwright@^3.0.0-beta.3":
-  "integrity" "sha512-4TD2IZbSRWrDdO6OtAdRt5UHOWphAscGeLG1yhTK8NvWNIhJPD+3xUets9KEEs5822Lp1Sd/3EcPjxWxJlVwpw=="
-  "resolved" "https://registry.npmjs.org/allure-playwright/-/allure-playwright-3.0.0-beta.3.tgz"
-  "version" "3.0.0-beta.3"
+allure-playwright@^2.29.0:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/allure-playwright/-/allure-playwright-2.15.1.tgz#c94e716b368db48de50a5095717a908007c7d8ad"
+  integrity sha512-P1Uu1j/ptDHdYp3V5ZAeBZyt33+L+OQu0otUIEl/zkOcv0KRycHqlHwC0GEJmpgnLKvVP7s+K37LcLoSUUj3Cg==
   dependencies:
-    "allure-js-commons" "3.0.0-beta.3"
+    allure-js-commons "2.15.1"
 
-"charenc@0.0.2":
-  "integrity" "sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA=="
-  "resolved" "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz"
-  "version" "0.0.2"
+ansi-regex@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-4.1.1.tgz#164daac87ab2d6f6db3a29875e2d1766582dabed"
+  integrity sha512-ILlv4k/3f6vfQ4OoP2AGvirOktlQ98ZEL1k9FaQjxa3L1abBgbuTDAdPOpvbGncC0BTVQrl+OM8xZGK6tWXt7g==
 
-"crypt@0.0.2":
-  "integrity" "sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow=="
-  "resolved" "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz"
-  "version" "0.0.2"
+charenc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/charenc/-/charenc-0.0.2.tgz"
+  integrity sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==
 
-"is-buffer@~1.1.6":
-  "integrity" "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w=="
-  "resolved" "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
-  "version" "1.1.6"
+crypt@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz"
+  integrity sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==
 
-"md5@^2.3.0":
-  "integrity" "sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g=="
-  "resolved" "https://registry.npmjs.org/md5/-/md5-2.3.0.tgz"
-  "version" "2.3.0"
+fsevents@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+
+is-buffer@~1.1.6:
+  version "1.1.6"
+  resolved "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
+  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+
+md5@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npmjs.org/md5/-/md5-2.3.0.tgz"
+  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
   dependencies:
-    "charenc" "0.0.2"
-    "crypt" "0.0.2"
-    "is-buffer" "~1.1.6"
+    charenc "0.0.2"
+    crypt "0.0.2"
+    is-buffer "~1.1.6"
 
-"playwright-core@1.44.1":
-  "integrity" "sha512-wh0JWtYTrhv1+OSsLPgFzGzt67Y7BE/ZS3jEqgGBlp2ppp1ZDj8c+9IARNW4dwf1poq5MgHreEM2KV/GuR4cFA=="
-  "resolved" "https://registry.npmjs.org/playwright-core/-/playwright-core-1.44.1.tgz"
-  "version" "1.44.1"
+playwright-core@1.44.1:
+  version "1.44.1"
+  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.44.1.tgz"
+  integrity sha512-wh0JWtYTrhv1+OSsLPgFzGzt67Y7BE/ZS3jEqgGBlp2ppp1ZDj8c+9IARNW4dwf1poq5MgHreEM2KV/GuR4cFA==
 
-"playwright@1.44.1":
-  "integrity" "sha512-qr/0UJ5CFAtloI3avF95Y0L1xQo6r3LQArLIg/z/PoGJ6xa+EwzrwO5lpNr/09STxdHuUoP2mvuELJS+hLdtgg=="
-  "resolved" "https://registry.npmjs.org/playwright/-/playwright-1.44.1.tgz"
-  "version" "1.44.1"
+playwright@1.44.1:
+  version "1.44.1"
+  resolved "https://registry.npmjs.org/playwright/-/playwright-1.44.1.tgz"
+  integrity sha512-qr/0UJ5CFAtloI3avF95Y0L1xQo6r3LQArLIg/z/PoGJ6xa+EwzrwO5lpNr/09STxdHuUoP2mvuELJS+hLdtgg==
   dependencies:
-    "playwright-core" "1.44.1"
+    playwright-core "1.44.1"
   optionalDependencies:
-    "fsevents" "2.3.2"
+    fsevents "2.3.2"
 
-"properties@^1.2.1":
-  "integrity" "sha512-qYNxyMj1JeW54i/EWEFsM1cVwxJbtgPp8+0Wg9XjNaK6VE/c4oRi6PNu5p7w1mNXEIQIjV5Wwn8v8Gz82/QzdQ=="
-  "resolved" "https://registry.npmjs.org/properties/-/properties-1.2.1.tgz"
-  "version" "1.2.1"
+properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/properties/-/properties-1.2.1.tgz"
+  integrity sha512-qYNxyMj1JeW54i/EWEFsM1cVwxJbtgPp8+0Wg9XjNaK6VE/c4oRi6PNu5p7w1mNXEIQIjV5Wwn8v8Gz82/QzdQ==
 
-"undici-types@~5.26.4":
-  "integrity" "sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA=="
-  "resolved" "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
-  "version" "5.26.5"
+strip-ansi@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
+  integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
+  dependencies:
+    ansi-regex "^4.1.0"
+
+undici-types@~5.26.4:
+  version "5.26.5"
+  resolved "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz"
+  integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==

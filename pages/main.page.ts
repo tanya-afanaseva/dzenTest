@@ -1,7 +1,7 @@
 import { Locator, Page } from '@playwright/test';
 
 export class MainPage {
-    readonly videoBlock: Locator;
+    readonly dzenBlock: Locator;
     readonly page: Page;
     readonly videoMenuButton: Locator;
     readonly avatarButton: Locator;
@@ -11,7 +11,7 @@ export class MainPage {
 
     constructor(page: Page) {
         this.page = page;
-        this.videoBlock = page.locator('//*[@aria-label="Лента Дзена"]');
+        this.dzenBlock = page.locator('//*[@aria-label="Лента Дзена"]');
         this.videoMenuButton = page.locator('[class*=navigation] [href=\'/video\']');
         this.avatarButton = page.locator('//*[contains(@class,"feed__item")]//article[1]//div[starts-with(@class, "avatar")]');
         this.descriptionTitle = page.locator('//*[contains(@class,"feed__item")]//article[1]//div[starts-with(@class, "card-part-description")]');
