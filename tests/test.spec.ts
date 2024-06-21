@@ -10,7 +10,7 @@ const data = dzenData;
 test.describe('Check dzen.ru', async () => {
 
     test.beforeEach(async ({page}) => {
-        await page.goto('https://dzen.ru/');
+        await page.goto(data.urls.baseUrl);
     });
 
     test('Check dzen main page', async ({ page }) => {
@@ -34,15 +34,17 @@ test.describe('Check dzen.ru', async () => {
         const videoPage = new VideoPage(page);
         await allure.step(`Check jump to video page`, async () => {
             await mainPage.videoMenuButton.click();
-            await expect(videoPage.activeMenuButton).toHaveText(data.title.menuVideo);
+            await videoPage.searchField.waitFor({state: 'visible'})
+            await expect(videoPage.activeMenuButton).toHaveText(data.texts.menuVideo);
             //check logo
         });
+
         await allure.step(`Check search video`, async () => {
             await videoPage.searchField.waitFor({state: 'visible'})
             await videoPage.searchField.click();
-            await videoPage.searchField.fill(data.title.searchBlueTractor);
+            await videoPage.searchField.fill(data.texts.searchBlueTractor);
             await page.keyboard.press(data.buttons.enter);
-            await expect(videoPage.activeMenuTitle).toContainText(data.title.videoAndClips);
+            await expect(videoPage.activeMenuTitle).toContainText(data.texts.videoAndClips);
             await videoPage.openVideoButton.isVisible()
         });
 

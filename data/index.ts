@@ -1,5 +1,5 @@
 export const dzenData = {
-    title: {
+    texts: {
         searchBlueTractor: 'Синий трактор',
         videoAndClips: 'Видео и ролики',
         menuVideo: 'Видео'
@@ -7,5 +7,9 @@ export const dzenData = {
 
     buttons: {
         enter: 'Enter'
+    },
+
+    urls: {
+        baseUrl: 'https://dzen.ru/'
     }
 };
